@@ -1,0 +1,38 @@
+CREATE table logindetail(
+username varchar(55) NOT NULL PRIMARY KEY,
+email tinytext NOT NULL,
+pass longtext NOT NULL);
+
+CREATE table personaldetail(
+username varchar(55) PRIMARY KEY,
+FirstName tinytext NOT NULL,
+LastName tinytext NOT NULL,
+Course tinytext NOT NULL,
+year varchar(5) NOT NULL,
+education tinytext NOT NULL,
+MobileNo varchar(20) NOT NULL,
+ADDRESS longtext NOT NULL,
+sex tinytext NOT NULL,
+dob date NOT NULL,
+Registration  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);
+
+CREATE table ideas(
+username varchar(55),
+application_no int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+name tinytext NOT NULL,
+title tinytext NOT NULL,
+email tinytext NOT NULL,
+category tinytext NOT NULL,
+field tinytext NOT NULL,
+mobileno varchar(11) NOT NULL,
+description longtext NOT NULL,
+address longtext NOT NULL,
+submission TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+status varchar(15) DEFAULT 'Pending',
+Filelocation TINYTEXT
+);
+
+
+CREATE TABLE adminlogin(
+    adminid VARCHAR(50) PRIMARY KEY,
+    PASSWORD LONGTEXT NOT NULL);

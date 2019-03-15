@@ -1,0 +1,680 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{padding:0;
+margin:0;
+font-family:Tahoma;
+font-size:12px;
+color:#000000;
+background:url(../images/bg-body.png) repeat;
+
+}
+
+.wrapper_content{ 
+margin:auto;
+width:1250px;
+height:auto;
+clear:both;
+float:left;
+background: url(../images/wrapper-bg.png) repeat;
+}
+
+
+
+#wrapper{width:1250px;
+height:auto;
+padding:0;
+margin:auto;
+
+}
+
+#top-head{ background:url(../images/background1.jpg) no-repeat;
+height: 145px;
+}
+
+
+.logo{float:left;
+margin:3px;
+
+}
+
+.conf-name{float: right;
+padding:10px;
+line-height:25px;
+text-align:right;
+color:#White;
+font-weight:700
+}
+
+
+
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+width:1248px;
+height: 39px;
+line-height:22px;
+overflow: hidden;
+border-bottom:1px solid #c1c0c0;
+border-left:1px solid #c1c0c0;
+border-right:1px solid #c1c0c0;
+background: url(../images/mene-bg.png) repeat-x;
+}
+
+.solidblockmenu li{
+display: inline;
+}
+
+.solidblockmenu li a{
+float: left;
+color: #045c97;
+display:block;
+padding: 9px 17.7px 9px 17.7px ;
+text-decoration: none;
+
+}
+
+.solidblockmenu li a.active{
+color: #ffffff;
+background:url(../images/menu-hover.png) repeat-x;
+display:block;
+padding: 9px 17.7px 9px 17.7px ;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: white;
+background: url(../images/menu-hover.png) repeat-x;
+padding: 9px 17.7px 9px 17.7px ;
+}
+
+
+#header{width:1002px;
+float:left;
+margin-top:10px
+}
+
+#left{float:left;
+width:260px;
+height:auto;
+margin-left:5px
+}
+
+.left-box{float:left;
+background:#FFFFFF;
+border: solid 1px #c3d7e7;
+margin-top:10px;
+width:258px
+}
+
+.left-heading{font-size:16px;
+color:#1477c4;
+padding:10px 10px 0 10px;
+}
+
+
+.list{color:#000;
+line-height:30px
+}
+
+.list ul{margin:0;
+padding:0;
+}
+
+.list ul li {list-style: url(../images/arrow.gif);
+margin-left:30px
+}
+
+.list ul li a{color:#000;
+text-decoration:none
+}
+
+.list ul li a:hover{color:#095ea0;
+}
+
+.list p{margin:0;
+text-align:justify;
+padding:5px 10px;
+line-height:18px
+}
+
+#read-more{background: url(../images/menu-hover.png) repeat-x;
+width:90px;
+height:29px;
+border:0;
+float:right;
+cursor:pointer;
+line-height:27px;
+text-align:center;
+color:#FFFFFF;
+margin:1px 10px 10px 0px;
+font-weight:bold;
+-moz-border-radius-bottomleft: 15px 15px;
+border-bottom-left-radius: 15px 15px;
+
+-moz-border-radius-topleft: 15px 15px;
+border-top-left-radius: 15px 15px;
+
+}
+
+#read-more a{ text-decoration:none;
+color:#FFFFFF;
+display:block;}
+
+#read-more a:hover{ background: url(../images/mene-bg.png) repeat-x;
+display:block;
+height:29px;
+color:#000;
+font-weight:bold;
+border:solid 1px #d9d9d9;
+-moz-border-radius-bottomleft: 15px 15px;
+border-bottom-left-radius: 15px 15px;
+
+-moz-border-radius-topleft: 15px 15px;
+border-top-left-radius: 15px 15px;
+
+}
+
+
+#middle{float:left;
+margin:0px 10px;
+width:700px;
+height:auto
+}
+
+.middle-box{background:#FFFFFF;
+border: solid 1px #c3d7e7;
+margin-top:10px;
+float:left
+
+}
+
+.inner-text{ padding:10px;
+line-height:20px
+}
+
+.middle-heading{font-size:16px;
+color:#000;
+padding:10px 10px 0 10px;
+}
+
+.middle-txt{padding:0 10px;
+text-align:justify;
+line-height:18px;
+padding-bottom:10px}
+
+ p{margin:0}
+ 
+ .middle-txt ul{margin:0;
+ padding:0;
+ }
+ 
+ .middle-txt ul li{list-style:url(../images/arrow.gif);
+
+ margin:5px 0 5px 35px;
+ line-height:22px
+ }
+ 
+ .invited-talks{background: url(../images/wrapper-bg.png) repeat;
+ width:678px;
+ margin-top:25px;
+ height:auto;
+ }
+ 
+ .invited-talks p{ line-height:20px;
+ padding-right:10px;
+ padding-top:10px }
+ 
+ .mid-read{
+border:0;
+cursor:pointer;
+text-align:center;
+color:#000;
+margin:0px 10px 10px 602px;
+font-weight:bold;
+}
+
+.mid-read a{ text-decoration:none;
+color:#000;
+display:block;}
+
+#read-more a:hover{
+display:block;
+color:#000;
+font-weight:bold;
+}
+
+
+#right{float:left;
+width:260px;
+height:auto;
+}
+
+.right-box{
+background:#FFFFFF;
+border: solid 1px #c3d7e7;
+margin-top:10px
+}
+
+.right-heading{font-size:16px;
+color:#1477c4;
+padding:10px 10px 0 10px;
+}
+
+
+.latest-news{padding-left:10px;
+line-height:18px;
+padding-bottom:10px
+}
+
+.latest-news p{padding-top:10px}
+
+.visitor-map{margin-left:10px;
+margin-bottom:10px;
+margin-top:5px}
+
+.pub-logo{
+	margin:8px;
+}
+
+#fr-main{ background:url(../images/fr-bg.png) repeat-x;
+float:left;
+width:1250px;
+height:30px;
+margin-top:10px
+}
+
+#fr-main ul{margin:0;
+padding:0
+}
+
+#fr-main ul li{float:left;
+list-style:none;
+color:#FFFFFF;
+padding:10px 17.3px;
+}
+
+#fr-main ul li a{color:#FFFFFF;
+text-decoration:none
+}
+
+#fr-main ul li a:hover{color:#FFFFFF;
+text-decoration:underline
+}
+
+.copy-right{
+color:#FFFFFF;
+padding-top:10px;
+padding-left:15px;
+float:left;
+width:550px
+}
+.fr_add{
+color:#FFFFFF;
+padding-top:30px;
+padding-right:15px;
+float:right
+}
+/*----------------------------------------inner-mid-txt------------------------------*/
+.inner-mid-txt{padding:0 10px;
+text-align:justify;
+line-height:18px;
+
+}
+
+
+/*-----------------------------------important date-----------------------------------*/
+
+
+#date-bg{background-color:#ecebeb;
+width:550px; 
+text-align:center;
+border-radius:5px;
+line-height:30px;
+margin:30px 0 40px 50px
+}
+
+#imp-date{color:#0284cc;
+padding-top:18px;
+padding-bottom:15px;
+border-bottom:#0284cc 2px solid;
+font-weight:bold;
+padding-left:5px;
+width:528px}
+
+/*------------------------------sponsership---------------------------------------*/
+.sponser-heading{color:#F15F2E;
+font-weight:bold;
+padding-top:10px;
+border-bottom: double 1px #F15F2E;
+width:202px
+}
+
+.coprate-heading{ padding-top:10px;
+padding-left:20px
+}
+
+.coprate-heading ul{ padding:0;
+margin:0
+}
+
+.coprate-heading ul li{ list-style:url(../images/arrow.gif);
+margin-left:15px
+}
+
+.divder{margin-top:20px}
+
+.tech-sponser-heading{color:#F15F2E;
+font-weight:bold;
+padding-bottom:2px;
+padding-top:10px;
+border-bottom: double 1px #F15F2E;
+width:215px
+}
+
+.investement_content{
+margin:0px;
+padding:0px;
+float:right;
+color:#F15F2E;
+font-size:11px;
+width:120px;
+}
+
+/*--------------------------paper submission--------------*/
+
+.download{
+padding-top:10px;
+padding-bottom:80px;
+text-align:center}
+
+.download a{ color:#282828;
+text-decoration:none}
+
+.download a:hover{ color:#1477c4;
+text-decoration: underline}
+
+/*--------------------------------editorial---------------*/
+
+.welcome-heading{
+	color:#1477c4;
+	border-bottom:#1477c4 1px dashed;
+	width:678px;
+	padding-top:10px;
+	padding-bottom:5px;
+	font-weight:bold
+}
+
+.left-txt{line-height:24px;
+padding-top:5px;
+padding-bottom:5px
+}
+
+
+-----------------------------------------paper registration------------------------------------------
+#paper_registration{ border-bottom:1px dashed #000 }
+
+.paper-box{width:736px;
+border-bottom:1px dotted #000000
+}
+
+#paper_registration ul{padding:0; margin:0; }
+#paper_registration ul li{ margin-left:20px;
+list-style: url(../images/arrow.gif);
+}
+
+#paper_registration p{margin:0; padding:10px 0 0 0}
+
+#registration-fee{ 
+color:#000;
+}
+
+.fee{ padding-top:15px }
+
+/*
+#date-bg1{ 
+text-align:center;
+background:#efefef;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}*/
+#table{
+	padding:0;
+	text-align:center;
+	font-size:11px;
+	margin-top:10px;
+	line-height:25px;
+	border:#333333 dotted 1px;
+}
+
+#table td{
+border:#333333 dotted 1px;
+}
+#table th{
+border:#333333 dotted 1px;
+}
+
+
+.fee1{ padding-top:15px;
+padding-left:10px }
+
+.extra-charges{background:#eaeeef;
+width:300px;
+text-align: justify;
+margin-top: 15px;
+margin-left: 60px 0 0;
+padding: 12px;
+width: 550px;
+}
+
+#date-bg2{background-color:#ffffff; 
+text-align:center;
+border-radius:5px;
+margin-top:15px;
+padding-left:10px;
+padding-right:10px
+ }
+ 
+ 
+ .extra-charges1{
+text-align: justify;
+line-height:18px;
+padding:10px
+}
+
+.inner-conference{ padding-top:10px;
+}
+
+.inner-conference ul{ margin:0;
+padding:0
+}
+
+.inner-conference ul li{ list-style: url(../images/arrow.gif)
+margin-left:20px;
+line-height:20px}
+
+#regi-col{
+	float:left;
+	width: 335px;
+	text-align: center;
+	line-height: 22px;
+}
+
+#regi-col a{ color:#2b2b2b;
+text-decoration:none
+}
+
+#regi-col p{ color:#2b2b2b;
+text-align:center;
+padding:0 10px 0 18px
+}
+
+#regi-col a:hover{ 
+text-decoration:underline
+}
+
+.regi1{background-color:#efefef;
+border-radius:5px;
+margin-top:10px;
+width:760px;
+height:200px
+
+}
+
+.regi1-text{padding: 5px 0 0 10px;
+width:300px;
+float:left;
+color:#057CC3}
+
+h2{color:#1477C4;
+font-size:12px;
+margin:0;}
+
+/*----------------------------------travell-----------------------------------*/
+
+#travell{float:left;
+margin-top:20px}
+
+
+.travel-box{ float:left;
+margin-right:20px;
+margin-left:10px;
+margin-top:10px}
+
+#travell p{ margin:0;
+text-align:center
+}
+
+#main-travell{background:#fff;
+float:left;
+width:700;
+border: solid 1px #c3d7e7;
+margin-top:10px
+}
+
+#travell1{float:left;
+margin:20px 20px 10px 20px}
+
+
+.travel-box1{ float:left;
+}
+
+#travell1 p{ margin:0;
+text-align:center
+}
+
+
+/*----------------------------------------------------conference guidelines-----------------------------------------------------------*/
+
+.conf-guide{ float:left;
+line-height:25px;
+margin-bottom:20px}
+
+.conf-guide ul{margin:0;
+padding:0
+}
+
+.conf-guide ul li{list-style: url(../images/arrow.gif);
+margin-left:25px}
+
+
+#venue{text-align:center;
+padding-top:10px;
+font-weight:bold
+}
+
+.hotel-image{float:left;
+margin-left:20px;
+margin-top:50px
+}
+
+.hotel-image img{margin-right:14px;
+margin-bottom:20px}
+
+
+/*------------------------------------------about malaysia----------------------------*/
+
+.klcity_pic{
+margin:20px 20px 20px 10px;
+padding:0px;
+width:200px;
+float:left;
+}
+.klcity_picboxse{
+margin:30px 20px 20px 10px;
+padding:0px;
+width:680px;
+float:left;
+}
+
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+/*-------------------------------------------------------------------call for paper--------------------------------*/
+
+.main_call{float:left;
+width:650px;
+margin-left:10px;
+margin-top:10px}
+
+#col1{width:320px;
+float:left;
+margin-top:10px
+}
+
+#col1 ul{margin:0;
+padding:0;
+}
+
+#col1 ul li{ list-style: url(../images/arrow.gif);
+margin-left:15px
+}
+
+.col2{float:left;
+width:320px;
+margin-top:10px;
+margin-left:10px
+}
+
+.col2 ul{margin:0;
+padding:0;
+}
+
+.col2 ul li{ list-style: url(../images/arrow.gif);
+margin-left:30px
+}
+
+.col3{float:left;
+width:320px;
+margin-top:10px;
+margin-left:10px
+}
+
+.col3 ul{margin:0;
+padding:0;
+}
+
+.col3 ul li{ list-style: url(images/arrow.html);
+margin-left:30px
+}
+
+
+
+.visa-info{ width:680px; float:left; padding-bottom:10px}
+
+.visa-info ul{margin:0;
+padding:0;
+}
+
+.visa-info ul li{ list-style:none;
+float:left;
+width:340px;
+
+}
