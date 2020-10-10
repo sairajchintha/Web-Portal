@@ -10,7 +10,7 @@ ideas.After logging into the portal, users can enter the details about their inn
 <h2>Features of Web portal</h2>
 <h5>Login/SignUp Page</h5>
 <p>Login and Sign up Pages are configured in such way that user finds it easy to login pr to sign up on portal. Details are stored in Database and are Secured with hashing technique.So Website owners never knew what is going inside data base.</p>
-<h5>FAQ>/h5>
+<h5>FAQ</h5>
 <p>People have a lot of questions. As we hear a lot of concerns from customers and receive feedback via email and Contact us section,it is hard to solve each and every small issue out there.So,instead we make a FAQ section where frequently encountered issues and questions will be solved and answered in a simple way.</p>
 <h5>Tracking and Notification Alert</h5>
 <p>Once the user submits the idea , it will be under going multiple filtration process and then evaluated by officials.We will be notifying the status of the application to the users at every stage via email notifications.Users can also log into the Portal and track the application status with the help of application number.Since we are providing tracking option,every application will be having a different number from other.</p>
