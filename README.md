@@ -4,7 +4,7 @@
 AICTE Web Portal project for SMART INDIA HACKATHON 2019 Grand Finale
 <a href="https://getinnovative.herokuapp.com/"><b>Link</b></a> 
 
-<p>idea submission portal with the specified URL. A new user can register with their email and other details. A registered user can then login to submit
+<p>Idea submission portal with the specified URL. A new user can register with their email and other details. A registered user can then login to submit
 ideas.After logging into the portal, users can enter the details about their innovative idea and a brief description of the same. User can also upload images videos and research publications regarding the idea.The portal also allows domain experts to register themselves and maintains the list of reviewers in various domains. Once the idea Submission is complete with all the required documents, the details are stored in the portal database. Using the details of domain reviewers, nomination of Domain expert panel is done by the Admin. This Nominated Panel scrutinizes the idea and submits the results in the portal. The results are notified to the user.</p>
 
 <h2>Features of Web portal</h2>
